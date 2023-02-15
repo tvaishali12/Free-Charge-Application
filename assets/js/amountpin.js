@@ -13,6 +13,6 @@ function sendAmount(e) {
     } else {
         s1.innerHTML = "";
         uname.style.border = "none";
-        window.location = "http://127.0.0.1:5501/Paymentdone.html";
+        window.location = "http://127.0.0.1:5501/paymentdone.html";
     }
 }

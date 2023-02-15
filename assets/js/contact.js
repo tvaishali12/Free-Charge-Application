@@ -197,7 +197,7 @@ for (let i = 0; i < list.length; i++) {
                 const nameText = person.name;
                 const numText = person.number;
                 const transactionsid = person.ids;
-                const selectnumURL = `http://127.0.0.1:5501/Amount.html?contactname=${nameText}&contactnumber=${numText}&letters=${transactionsid}`;
+                const selectnumURL = `http://127.0.0.1:5501/amount.html?contactname=${nameText}&contactnumber=${numText}&letters=${transactionsid}`;
                 window.location = selectnumURL;
             });
         });
@@ -218,7 +218,7 @@ for (let i = 0; i < list.length; i++) {
 
         const transactionsid = list[i].transactionid;
 
-        const selectnumURL = `http://127.0.0.1:5501/Amount.html?contactname=${nameText}&contactnumber=${numText}&letters=${transactionsid}`;
+        const selectnumURL = `http://127.0.0.1:5501/amount.html?contactname=${nameText}&contactnumber=${numText}&letters=${transactionsid}`;
         window.location = selectnumURL;
     });
 }
