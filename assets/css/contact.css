@@ -1,0 +1,160 @@
+body {
+  background: #f7f7fa;
+  font-family: sspRegular;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.freecharge-logo {
+  width: 150px;
+  height: 40px;
+}
+.header-right-handpart {
+  display: flex;
+}
+.login-img {
+  width: 39px;
+  height: 39px;
+}
+.login-para {
+  color: #e3714d;
+  cursor: pointer;
+  font-family: sspRegular;
+  font-size: 1em;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-size: 1.143em;
+  margin-top: 11px;
+}
+.bootom-left {
+  padding: 17px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: 16px;
+  height: 456px;
+  position: fixed;
+  margin-top: 40px;
+}
+.left-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.left-child-nested {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  width: 170px;
+
+  border-radius: 12px;
+  color: rgba(34, 34, 34, 0.76);
+}
+.left-child-nested-1 {
+  background-color: rgba(227, 113, 78, 0.06);
+}
+.letf-side-img {
+  width: 26px;
+  height: 26px;
+}
+
+#maincontainer {
+  width: 50%;
+  margin-left: 456px;
+}
+
+#container {
+  margin-top: 48px;
+  height: 1000px;
+  width: 96%;
+  border: none;
+  padding-left: 118px;
+  background: white;
+  border-radius: 18px;
+  box-sizing: border-box;
+  margin-left: 8px;
+}
+.information {
+  display: flex;
+  height: 62px;
+  margin-left: -90px;
+}
+#letter {
+  padding: 16px;
+  border: 1px solid;
+  width: 7px;
+  height: 7px;
+  border-radius: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #1ae9e5;
+  color: white;
+}
+.img {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  top: 35px;
+  right: 12px;
+}
+
+#num {
+  margin-top: -11px;
+  font-size: 12px;
+}
+#name {
+  font-size: 14px;
+}
+.anchor {
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  position: sticky;
+  top: 106px;
+  z-index: 1;
+  background-color: white;
+  height: 47px;
+  width: 96%;
+  margin-left: 7px;
+  border: none;
+  border-radius: 14px;
+}
+input {
+  border: none;
+  outline: none;
+  width: 250px;
+  padding: 10px;
+  font-size: 17px;
+}
+.imgs {
+  width: 21px;
+  position: relative;
+  top: 7px;
+  right: 20px;
+}
+.select {
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 60px;
+  font-size: 19px;
+}
+#ids {
+  color: white;
+}

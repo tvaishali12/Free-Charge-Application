@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/amount.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-container">
+        <img
+          class="freecharge-logo"
+          src="https://pwa-cdn.freecharge.in/pwa-static/pwa/images/header/fc-logo-rebranded.png"
+          alt=""
+        />
+      </div>
+      <div class="header-right-handpart">
+        <div class="login-imgs">
+          <img
+            class="login-img"
+            src="https://pwa-cdn.freecharge.in/pwa-static/pwa/images/header/login-icon.png"
+            alt=""
+          />
+        </div>
+        <div class="login-text">
+          <p class="login-para">Login / Register</p>
+        </div>
+      </div>
+    </div>
+    <div class="bootom-left">
+      <div class="left-child">
+        <div class="left-child-nested left-child-nested-1">
+          <div class="child-1-icon">
+            <img
+              class="letf-side-img"
+              src="	https://pwa-cdn.freecharge.in/pwa-static/pwa/images/hamburger/tabs_home_active.png"
+              alt=""
+            />
+          </div>
+          <div class="child-1-text">Home</div>
+        </div>
+        <div class="left-child-nested">
+          <div class="child-1-icon">
+            <img
+              class="letf-side-img"
+              src="	https://pwa-cdn.freecharge.in/pwa-static/pwa/images/hamburger/tabs_loan_inactive.png"
+              alt=""
+            />
+          </div>
+          <div class="child-1-text">Loans & More</div>
+        </div>
+        <div class="left-child-nested">
+          <div class="child-1-icon">
+            <img
+              class="letf-side-img"
+              src="https://pwa-cdn.freecharge.in/pwa-static/pwa/images/hamburger/offers.png"
+              alt=""
+            />
+          </div>
+          <div class="child-1-text">Offers</div>
+        </div>
+        <div class="left-child-nested">
+          <div class="child-1-icon">
+            <img
+              class="letf-side-img"
+              src="	https://pwa-cdn.freecharge.in/pwa-static/pwa/images/hamburger/blog_icon.png"
+              alt=""
+            />
+          </div>
+          <div class="child-1-text">Blog</div>
+        </div>
+        <div class="left-child-nested">
+          <div class="child-1-icon">
+            <img
+              class="letf-side-img"
+              src="	https://pwa-cdn.freecharge.in/pwa-static/pwa/images/hamburger/help.png"
+              alt=""
+              y
+            />
+          </div>
+          <div class="child-1-text">Help and Support</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      -
+      <div class="headers">
+        <a href="http://127.0.0.1:5501/Contacts.html">
+          <span
+            style="position: relative; top: 14px; left: 6px"
+            class="material-symbols-outlined"
+          >
+            arrow_back
+          </span>
+        </a>
+        <span id="select"></span><br />
+        <span id="selects"></span>
+        <span id="transcid"></span>
+      </div>
+      <div id="chat"></div>
+      <div id="lastcontent">
+        <span id="rupee" class="material-symbols-outlined">
+          currency_rupee
+        </span>
+        <input
+          onkeyup="updateInput(event)"
+          id="input"
+          type="text"
+          placeholder="Enter amount or say something"
+        />
+        <div class="sendicon"></div>
+        <span
+          id="send"
+          style="font-size: 35px"
+          class="material-symbols-outlined"
+        >
+          send
+        </span>
+        <div class="pending">
+          <span style="font-size: 33px" class="material-symbols-outlined">
+            pending
+          </span>
+        </div>
+        <a href="http://127.0.0.1:5501/amount-pin.html">
+          <button id="btn">pay</button></a
+        >
+      </div>
+    </div>
+    <p
+      id="demo"
+      style="color: white; position: relative; top: -93px; font-size: 30px"
+    ></p>
+  </body>
+
+  <script src="./assets/js/amount.js"></script>
+</html>

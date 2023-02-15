@@ -1,0 +1,208 @@
+body {
+  background: #f7f7fa;
+  font-family: sspRegular;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.header-right-handpart {
+  display: flex;
+}
+.freecharge-logo {
+  width: 150px;
+  height: 40px;
+}
+a {
+  display: flex;
+  flex-direction: column;
+}
+.login-img {
+  width: 39px;
+  height: 39px;
+}
+.login-para {
+  color: #e3714d;
+  cursor: pointer;
+  font-family: sspRegular;
+  font-size: 1em;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-size: 1.143em;
+  margin-top: 11px;
+}
+.left-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.left-child-nested {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  width: 170px;
+
+  border-radius: 12px;
+  color: rgba(34, 34, 34, 0.76);
+}
+.left-child-nested-1 {
+  background-color: rgba(227, 113, 78, 0.06);
+}
+.letf-side-img {
+  width: 26px;
+  height: 26px;
+}
+.header-bottom-div {
+  padding: 35px 10px;
+}
+.bootom-left {
+  padding: 17px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: 16px;
+  height: 456px;
+  position: fixed;
+}
+img {
+  height: 28px;
+}
+.bootom-right-child {
+  display: flex;
+  flex-direction: column;
+}
+.header-bottom-div-child {
+  display: flex;
+}
+.bootom-right {
+  padding-left: 305px;
+}
+
+.icon-child-childs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-child-childs-1 {
+  margin-left: -35px;
+}
+.icon-child-childs-2 {
+  margin-right: 30px;
+}
+.icon-child-div-2 {
+  display: flex;
+  gap: 84px;
+  margin-bottom: 25px;
+}
+.icon-img-parent {
+  background-color: #fff;
+  border: 1px solid gainsboro;
+  border-radius: 15px;
+  margin: 0 auto 10px;
+  padding: 14px 10px;
+  position: relative;
+  width: 45px;
+}
+.icon-img-parent {
+  display: flex;
+  justify-content: center;
+}
+.icon-child-div {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 25px;
+}
+.payment {
+  position: relative;
+  top: -17px;
+  left: -17px;
+}
+p {
+  color: #5a6876;
+
+  font-size: 1em;
+  line-height: 1.2em;
+}
+.icon-texts {
+  color: white;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #85acaf;
+  box-shadow: 0 3px 10px 0 #85acaf;
+  border-radius: 20px;
+  cursor: pointer;
+
+  margin-bottom: 10px;
+  width: 240px;
+  padding-left: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.icon-img {
+  width: 50px;
+  height: 50px;
+}
+.card-icon {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  width: 152px;
+  position: relative;
+}
+.card-parent {
+  display: flex;
+  gap: 27px;
+}
+.card2 {
+  background-color: #90a5ba;
+}
+.card-2 {
+  background: white;
+
+  padding-top: 10px;
+  padding-left: 19px;
+  border-radius: 20px;
+  padding-bottom: 23px;
+}
+.icons-parent {
+  display: flex;
+  gap: 127px;
+}
+.bottom-right-child-3 {
+  margin-top: 40px;
+}
+.images {
+  width: 366px;
+  height: 205px;
+}
+.images-container {
+  column-gap: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.bottom-right-child-4 {
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+}

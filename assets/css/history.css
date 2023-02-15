@@ -1,0 +1,164 @@
+body {
+  background: #f7f7fa;
+  font-family: sspRegular;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.freecharge-logo {
+  width: 150px;
+  height: 40px;
+}
+.header-right-handpart {
+  display: flex;
+}
+.login-img {
+  width: 39px;
+  height: 39px;
+}
+.login-para {
+  color: #e3714d;
+  cursor: pointer;
+  font-family: sspRegular;
+  font-size: 1em;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-size: 1.143em;
+  margin-top: 11px;
+}
+.bootom-left {
+  padding: 17px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: 16px;
+  height: 456px;
+  position: fixed;
+  margin-top: 40px;
+}
+.left-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.left-child-nested {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  width: 170px;
+
+  border-radius: 12px;
+  color: rgba(34, 34, 34, 0.76);
+}
+.left-child-nested-1 {
+  background-color: rgba(227, 113, 78, 0.06);
+}
+.letf-side-img {
+  width: 26px;
+  height: 26px;
+}
+
+#mainContainer {
+  width: 50%;
+  top: 41px;
+
+  margin-left: 467px;
+
+  position: relative;
+  background-color: #f1e9e9;
+}
+#container {
+  margin: 18px;
+  line-height: 69px;
+}
+.headers {
+  background: white;
+  height: 75px;
+  position: sticky;
+  top: 66px;
+  z-index: 3;
+}
+.imgDiv {
+  padding: 10px;
+  height: 138px;
+}
+#recordedAmount {
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+.topImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.para-2 {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.icons {
+  display: flex;
+  gap: 100px;
+}
+.functionItem {
+  padding-left: 20px;
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  margin-top: -21px;
+  margin-bottom: 31px;
+}
+.material-symbols-outlined {
+  font-size: 33px;
+  background: #470947;
+  border-radius: 16px;
+  padding: 8px;
+}
+h3 {
+  padding-top: 20px;
+}
+.mso {
+  background: none;
+  color: #470947;
+}
+.mso2 {
+  color: white;
+}
+.flag {
+  width: 34px;
+}
+.flagCon {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.headerContent {
+  display: flex;
+  position: relative;
+  top: 10px;
+  justify-content: space-between;
+}
+.para1 {
+  font-size: 14px;
+  color: white;
+}

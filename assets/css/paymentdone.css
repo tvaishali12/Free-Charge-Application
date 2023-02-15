@@ -1,0 +1,128 @@
+body {
+  background: #f7f7fa;
+  font-family: sspRegular;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.freecharge-logo {
+  width: 150px;
+  height: 40px;
+}
+.header-right-handpart {
+  display: flex;
+}
+.login-img {
+  width: 39px;
+  height: 39px;
+}
+.login-para {
+  color: #e3714d;
+  cursor: pointer;
+  font-family: sspRegular;
+  font-size: 1em;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-size: 1.143em;
+  margin-top: 11px;
+}
+.bootom-left {
+  padding: 17px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: 16px;
+  height: 456px;
+  position: fixed;
+  margin-top: 40px;
+}
+.left-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.left-child-nested {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  width: 170px;
+
+  border-radius: 12px;
+  color: rgba(34, 34, 34, 0.76);
+}
+.left-child-nested-1 {
+  background-color: rgba(227, 113, 78, 0.06);
+}
+.letf-side-img {
+  width: 26px;
+  height: 26px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 493px;
+  margin-left: 467px;
+  position: relative;
+  /* background-color: #11ad2c; */
+  border-radius: 18px;
+  margin-top: 43px;
+  /* box-shadow: 0px 3px 28px -6px rgba(0, 0, 0, 0.75) inset; */
+  box-shadow: rgb(17 221 28) 0px -11px 28px -6px inset;
+  /* -webkit-box-shadow: 0px 3px 28px -6px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 3px 28px -6px rgba(0, 0, 0, 0.75) inset; */
+}
+#container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 165px;
+  row-gap: 15px;
+}
+.done {
+  width: 60px;
+  height: 60px;
+  border: 1px solid green;
+  border-width: 2px;
+  border-radius: 100%;
+  background: white;
+}
+#btn1 {
+  padding: 14px;
+  border-radius: 39px;
+  color: green;
+  background: none;
+  border-color: white;
+  font-size: 13px;
+  border: 1px solid green;
+  border-width: 2px;
+}
+.para {
+  color: #33c233;
+  font-size: 26px;
+}
+#recordedAmount {
+  font-size: 17px;
+  line-height: 2em;
+  position: relative;
+  top: -372px;
+  color: #0b720b;
+  left: -211px;
+  background: white;
+  padding: 12px;
+  border-radius: 7px;
+}
