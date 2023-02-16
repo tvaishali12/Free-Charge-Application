@@ -167,6 +167,7 @@ p {
   border: none;
   width: 152px;
   position: relative;
+  left: 27px;
 }
 .card-parent {
   display: flex;
