@@ -174,7 +174,7 @@ for (let i = 0; i < list.length; i++) {
 
             const ids = document.createElement("p");
             ids.id = "ids";
-            ids.innerText = person.ids;
+            ids.innerText = person.transactionid;
 
             const name = document.createElement("p");
             name.id = "name";
@@ -196,7 +196,7 @@ for (let i = 0; i < list.length; i++) {
             anchor.addEventListener("click", function () {
                 const nameText = person.name;
                 const numText = person.number;
-                const transactionsid = person.ids;
+                const transactionsid = person.transactionid;
                 const selectnumURL = `http://127.0.0.1:5501/amount.html?contactname=${nameText}&contactnumber=${numText}&letters=${transactionsid}`;
                 window.location = selectnumURL;
             });

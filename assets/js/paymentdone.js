@@ -5,7 +5,7 @@ const allEntries = JSON.parse(inputValue);
 let content = "";
 
 allEntries.forEach(function (entry) {
-    content = `Paid to - ${entry.Paidto},<br> Amount - ${entry.Amount}<br> TransactonId - ${entry.Transactionid}`;
+    content = `Paid to - ${entry.Paidto},<br> Amount - ${entry.Amount}<br> Transaction-Id - ${entry.Transactionid}`;
     // content = "";
 });
 
